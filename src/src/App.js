@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ValidationForm from './Component/ValidationForm';
+import FormValidation from './components/FormValidation';
 
 function App() {
   return (
     <div className="App">
-      <ValidationForm/>
+        <FormValidation />
     </div>
   );
 }
